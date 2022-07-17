@@ -1,0 +1,28 @@
+{
+  "name": "tfrp",
+  "version": "0.0.0",
+  "description": "Transparent Functional Reactive Programming",
+  "main": "tfrp.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re-js/tfrp.git"
+  },
+  "keywords": [
+    "reactive",
+    "functional",
+    "decorators",
+    "tfrp"
+  ],
+  "author": "Slava Bereza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/re-js/tfrp/issues"
+  },
+  "homepage": "https://github.com/re-js/tfrp#readme"
+}

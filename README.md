@@ -1,2 +1,2 @@
-# trfp
-Transparent Reactive Functional Programming
+# TFRP
+Transparent Functional Reactive Programming
