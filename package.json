@@ -14,10 +14,11 @@
     "reactive-box": "0.8.0"
   },
   "devDependencies": {
-    "remini": "0.3.6",
     "@types/jest": "28.1.6",
     "jest": "28.1.3",
-    "ts-jest": "28.0.7"
+    "remini": "0.3.6",
+    "ts-jest": "28.0.7",
+    "typescript": "4.7.4"
   },
   "repository": {
     "type": "git",
