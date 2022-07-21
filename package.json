@@ -1,13 +1,23 @@
 {
   "name": "tfrp",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "description": "Transparent Functional Reactive Programming",
-  "main": "tfrp.js",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "engines": {
     "node": ">=16"
+  },
+  "dependencies": {
+    "reactive-box": "0.8.0"
+  },
+  "devDependencies": {
+    "remini": "0.3.6",
+    "@types/jest": "28.1.6",
+    "jest": "28.1.3",
+    "ts-jest": "28.0.7"
   },
   "repository": {
     "type": "git",
@@ -17,12 +27,17 @@
     "reactive",
     "functional",
     "decorators",
-    "tfrp"
+    "tfrp",
+    "remini"
   ],
-  "author": "Slava Bereza",
+  "author": "Slava Bereza <mail@betula.co>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/re-js/tfrp/issues"
   },
-  "homepage": "https://github.com/re-js/tfrp#readme"
+  "homepage": "https://github.com/re-js/tfrp#readme",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
 }

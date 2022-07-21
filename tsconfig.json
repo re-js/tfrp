@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es2015",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "tfrp": ["src"],
+    },
+  },
+  "include": ["tests/**/*.ts", "tests/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
