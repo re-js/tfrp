@@ -1,17 +1,14 @@
 {
   "name": "tfrp",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Transparent Functional Reactive Programming",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
     "test": "jest"
   },
-  "engines": {
-    "node": ">=16"
-  },
   "dependencies": {
-    "reactive-box": "0.8.0"
+    "reactive-box": ">=0.8.0"
   },
   "devDependencies": {
     "@types/jest": "28.1.6",

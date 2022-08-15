@@ -1,6 +1,9 @@
 # Class decorators for TFRP
 
-[![npm version](https://img.shields.io/npm/v/tfrp?style=flat-square)](https://www.npmjs.com/package/tfrp) [![code coverage](https://img.shields.io/coveralls/github/re-js/tfrp?style=flat-square)](https://coveralls.io/github/re-js/tfrp) [![typescript supported](https://img.shields.io/npm/types/typescript?style=flat-square)](./src/index.d.ts)
+[![npm version](https://img.shields.io/npm/v/tfrp?style=flat-square)](https://www.npmjs.com/package/tfrp)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/tfrp?style=flat-square)](https://bundlephobia.com/result?p=tfrp)
+[![code coverage](https://img.shields.io/coveralls/github/re-js/tfrp?style=flat-square)](https://coveralls.io/github/re-js/tfrp)
+[![typescript supported](https://img.shields.io/npm/types/typescript?style=flat-square)](./src/index.d.ts)
 
 Transparent Functional Reactive Programming
 

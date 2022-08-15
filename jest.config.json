@@ -1,16 +1,6 @@
 {
   "preset": "ts-jest",
-  "modulePathIgnorePatterns": [
-    "<rootDir>/src/"
-  ],
-  "testMatch": [
-    "<rootDir>/tests/**/*.test.ts*"
-  ],
   "moduleNameMapper": {
     "^tfrp$": "<rootDir>/src"
-  },
-  "coveragePathIgnorePatterns": [
-    "node_modules",
-    "tests"
-  ]
+  }
 }
